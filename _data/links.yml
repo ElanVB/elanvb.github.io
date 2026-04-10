@@ -1,19 +1,19 @@
-- title: Project One
-  url: https://example.com/project-one
-  description: My main app for X.
+- title: YouTube Video Battles
+  url: https://beat2beat.vercel.app/
+  description: Find out which YouTube video is best by getting your friends to vote!
 
-- title: Project Two
-  url: https://example.com/project-two
-  description: A smaller side project.
+# - title: Project Two
+#   url: https://example.com/project-two
+#   description: A smaller side project.
 
 - title: GitHub
-  url: https://github.com/YOUR-USERNAME
+  url: https://github.com/ElanVB
   description: Source code and experiments.
 
-- title: Blog
-  url: https://example.com/blog
-  description: Notes, writing, and updates.
+# - title: Blog
+#   url: https://example.com/blog
+#   description: Notes, writing, and updates.
 
 - title: Contact
-  url: mailto:you@example.com
+  url: mailto:elanvanbiljon@gmail.com
   description: Get in touch.
