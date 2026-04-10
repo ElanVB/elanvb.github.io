@@ -3,6 +3,15 @@
 
 @import "{{ site.theme }}";
 
+// Don't show header and footer
+header {
+  display: none;
+}
+
+footer {
+  display: none; /* optional */
+}
+
 /* Page width */
 .wrapper {
   max-width: 960px;
