@@ -1,0 +1,102 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* Page width */
+.wrapper {
+  max-width: 960px;
+}
+
+/* Hide the default large header area from minimal if you want a cleaner splash page */
+header {
+  width: 100%;
+  float: none;
+  position: static;
+}
+
+section {
+  width: 100%;
+  float: none;
+}
+
+footer {
+  display: none;
+}
+
+/* Hero */
+.hero {
+  margin: 2rem 0 2.5rem;
+}
+
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.8rem;
+  margin-bottom: 0.5rem;
+  opacity: 0.7;
+}
+
+.hero h1 {
+  margin-bottom: 0.5rem;
+  font-size: 2.4rem;
+  line-height: 1.1;
+}
+
+.intro {
+  font-size: 1.1rem;
+  max-width: 42rem;
+  opacity: 0.85;
+}
+
+/* Cards */
+.links-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.link-card {
+  display: block;
+  padding: 1rem 1.1rem;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 16px;
+  text-decoration: none !important;
+  background: #fff;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
+  transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+}
+
+.link-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.08);
+  border-color: rgba(0, 0, 0, 0.14);
+}
+
+.link-card h2 {
+  margin: 0 0 0.4rem;
+  font-size: 1.05rem;
+}
+
+.link-card p {
+  margin: 0 0 0.8rem;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.link-arrow {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+/* Mobile */
+@media (max-width: 640px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .intro {
+    font-size: 1rem;
+  }
+}

@@ -1,3 +1,11 @@
-theme: jekyll-theme-minimal
-title: EvB
+title: EvB - You name it, I make it
 description: I make web products that I think are cool. I try do it for free, but appreciate any support to help my projects. I am also available if you want to contract me to create something for you.
+theme: jekyll-theme-minimal
+
+# Change these:
+url: "https://elanvb.github.io"
+baseurl: ""
+# baseurl: "/elanvb.github.io"
+
+# Optional
+show_downloads: false

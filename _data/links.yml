@@ -1,0 +1,19 @@
+- title: Project One
+  url: https://example.com/project-one
+  description: My main app for X.
+
+- title: Project Two
+  url: https://example.com/project-two
+  description: A smaller side project.
+
+- title: GitHub
+  url: https://github.com/YOUR-USERNAME
+  description: Source code and experiments.
+
+- title: Blog
+  url: https://example.com/blog
+  description: Notes, writing, and updates.
+
+- title: Contact
+  url: mailto:you@example.com
+  description: Get in touch.
